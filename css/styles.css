@@ -245,12 +245,10 @@ button {
 }
 
 .features-item {
-  /* width: 264px; */
   display: flex;
   min-width: 264px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 8px;
 
   width: calc((100% - 24px * 3) / 4);
@@ -263,25 +261,14 @@ button {
   width: 264px;
   height: 112px;
   border-radius: 4px;
+  margin-bottom: 8px;
 
   background-color: var(--CLOUD);
-  margin-bottom: 8px;
 
   transition-property: border-radius, border, box-shadow, background-color;
   transition-duration: 2000ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 250ms;
-}
-
-.features-icons-container:focus,
-.features-icons-container:hover {
-  display: block;
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  border: 1px solid #000;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  background-color: var(--CLOUD);
 }
 
 .features-icon {
@@ -293,9 +280,9 @@ button {
 .features-list-header {
   color: var(--NAVY);
   /* Header 3 */
-  font-family: "Roboto", sans-serif;
+
   font-size: 20px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: var(--letter-spacing-h3);
@@ -304,9 +291,9 @@ button {
 .features-list-text {
   color: var(--SLATE);
   /* Body */
-  font-family: "Roboto", sans-serif;
+
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing-text);
@@ -491,16 +478,7 @@ button {
   justify-content: center;
   align-items: center;
   width: calc((100% - 24px * 5) / 6);
-  background-color: var(--CLOUD);
-}
-
-.clients-icons-container {
-  display: block;
-  width: 168px;
-  height: 88px;
-  border-radius: 4px;
-
-  background-color: var(--CLOUD);
+  background-color: var(--WHITE);
 }
 
 .clients-icon {
@@ -546,17 +524,6 @@ button {
   align-items: center;
   justify-content: center;
   margin-bottom: 72px;
-}
-
-.all-pbutton {
-  color: var(--WHITE);
-  text-align: center;
-  /* Button Text */
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: var(--letter-spacing-button-text);
-  background: var(--OCEAN);
 }
 
 .pbutton {
@@ -703,7 +670,7 @@ footer {
 .footer-cont {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  /* gap: 120px; */
 }
 
 .footer-contain-1 {
@@ -743,16 +710,19 @@ footer {
   width: 264px;
 }
 
+.footer-contain-2 {
+}
+
 .footer-text-two {
   color: var(--WHITE);
 
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
+  font-weight: 500;
 
   letter-spacing: 0.02em;
   height: 24px;
-  width: 96px;
+
   margin-bottom: 16px;
 }
 
