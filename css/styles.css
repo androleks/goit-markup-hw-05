@@ -258,17 +258,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 264px;
+
   height: 112px;
   border-radius: 4px;
-  margin-bottom: 8px;
 
   background-color: var(--CLOUD);
-
-  transition-property: border-radius, border, box-shadow, background-color;
-  transition-duration: 2000ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 250ms;
 }
 
 .features-icon {
@@ -820,4 +814,66 @@ footer {
 
 .close-button-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-container {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin: 72px 24px 16px 24px;
+}
+.modal-header {
+  font-size: 16px;
+
+  height: 24px;
+  font-weight: 500;
+  line-height: 1, 5; /* 150% */
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.modal-list {
+  display: block;
+}
+
+.modal-list-item {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.modal-form {
+  color: var(--LIGHT-SLATE, #8e8f99);
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.166; /* 116.667% */
+  letter-spacing: 0.04em;
+  width: 360px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.modal-label {
+  color: var(--LIGHT-SLATE, #8e8f99);
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.166; /* 116.667% */
+  letter-spacing: 0.04em;
+}
+
+.modal-input {
+  font-family: inherit;
+}
+.form-icon {
+}
+.textarea {
+}
+.check-policy {
 }
