@@ -1035,9 +1035,9 @@ footer {
 }
 
 .input-check:checked + .check-policy > .span-policy-link {
-  background-color: var(--CORNFLOWER);
+  background-color: var(--OCEAN);
   border: none;
-  fill: var(--OCEAN);
+  fill: var(--CLOUD);
 }
 
 .policy-link {
