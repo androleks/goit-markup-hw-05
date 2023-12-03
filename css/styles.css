@@ -1033,6 +1033,21 @@ footer {
   justify-content: center;
   fill: transparent;
 }
+/* input[type="checkbox"]:checked { */
+/* box-shadow: 0 0 0 2px orangered; */
+/* } */
+/* .input-check:checked { */
+/* background-color: var(--OCEAN); */
+/* border: none; */
+/* fill: var(--CLOUD); */
+/* } */
+/* .modal-label > .span-policy-link > .checkbox-icon > .check-inside */
+
+.input-check:checked + .span-policy-link {
+  background-color: var(--OCEAN);
+  border: none;
+  fill: var(--CLOUD);
+}
 
 .policy-link {
   color: var(--IRIS);
@@ -1040,17 +1055,11 @@ footer {
 .checkbox-icon {
 }
 
-/* .input-check: { */
-/* } */
 /* .input-check[type="checkbox"]:checked + label { */
 /* background-color: var(--OCEAN); */
 /* border: none; */
 /* fill: var(--CLOUD); */
 /* } */
-
-.input-check:checked + .modal-label {
-  color: var(--OCEAN);
-}
 
 .modal-submit-button {
   display: block;
