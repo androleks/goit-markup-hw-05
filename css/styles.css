@@ -1034,6 +1034,10 @@ footer {
   fill: transparent;
 }
 
+.check-icon {
+  fill: transparent;
+}
+
 .input-check:checked + .check-policy > .span-policy-link {
   background-color: var(--OCEAN);
   border: none;
