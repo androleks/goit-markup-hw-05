@@ -1033,14 +1033,7 @@ footer {
   justify-content: center;
   fill: transparent;
 }
-/* input[type="checkbox"]:checked { */
-/* box-shadow: 0 0 0 2px orangered; */
-/* } */
-/* .input-check:checked { */
-/* background-color: var(--OCEAN); */
-/* border: none; */
-/* fill: var(--CLOUD); */
-/* } */
+
 /* .modal-label > .span-policy-link > .checkbox-icon > .check-inside */
 
 .input-check:checked + .check-policy > .span-policy-link {
@@ -1054,12 +1047,6 @@ footer {
 }
 .checkbox-icon {
 }
-
-/* .input-check[type="checkbox"]:checked + label { */
-/* background-color: var(--OCEAN); */
-/* border: none; */
-/* fill: var(--CLOUD); */
-/* } */
 
 .modal-submit-button {
   display: block;
