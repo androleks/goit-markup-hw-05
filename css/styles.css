@@ -1037,9 +1037,9 @@ footer {
 /* .modal-label > .span-policy-link > .checkbox-icon > .check-inside */
 
 .input-check:checked + .check-policy > .span-policy-link {
-  background-color: var(--OCEAN);
+  background-color: var(--CORNFLOWER);
   border: none;
-  fill: var(--CLOUD);
+  fill: var(--OCEAN);
 }
 
 .policy-link {
