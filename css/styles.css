@@ -1043,7 +1043,7 @@ footer {
 /* } */
 /* .modal-label > .span-policy-link > .checkbox-icon > .check-inside */
 
-.input-check:checked + .span-policy-link {
+.input-check:checked + .check-policy > .span-policy-link {
   background-color: var(--OCEAN);
   border: none;
   fill: var(--CLOUD);
