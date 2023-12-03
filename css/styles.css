@@ -705,6 +705,7 @@ footer {
 }
 
 .footer-contain-2 {
+  margin-right: 80px;
 }
 
 .footer-text-two {
@@ -749,6 +750,39 @@ footer {
 .sm-links-icon {
   position: relative;
   fill: var(--CLOUD);
+}
+
+.footer-contain-3 {
+}
+
+.footer-text-three {
+  color: var(--WHITE);
+
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+
+  letter-spacing: 0.02em;
+  height: 24px;
+
+  margin-bottom: 16px;
+}
+
+.foot-form {
+  display: flex;
+  width: 264px;
+  height: 40px;
+  gap: 24px;
+  border-radius: 4px;
+  border: 2px solid var(--WHITE);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.foot-input {
+  font-family: inherit;
+  width: 100%;
+  background-color: inherit;
+  color: var(--WHITE);
 }
 
 /* ============= Modal Window ===================== */
