@@ -1033,28 +1033,25 @@ footer {
   justify-content: center;
   fill: transparent;
 }
+
+.policy-link {
+  color: var(--IRIS);
+}
 .checkbox-icon {
 }
 
 /* .input-check: { */
 /* } */
-.input-check:checked {
-  background-color: var(--OCEAN);
-  border: none;
-  fill: var(--CLOUD);
+/* .input-check[type="checkbox"]:checked + label { */
+/* background-color: var(--OCEAN); */
+/* border: none; */
+/* fill: var(--CLOUD); */
+/* } */
+
+.input-check:checked + .modal-label {
+  color: var(--OCEAN);
 }
 
-.policy-link {
-  color: var(--IRIS);
-  /* Link Text */
-
-  /* font-size: 12px; */
-
-  /* font-weight: 400; */
-  /* line-height: 16px; */
-  /* letter-spacing: 0.48px; */
-  /* text-decoration-line: underline; */
-}
 .modal-submit-button {
   display: block;
   font-family: "Roboto", sans-serif;
